@@ -5,7 +5,7 @@
         <div class="alpha-logo bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px; font-weight: bold; font-size: 1.2rem;">α</div>
         <div>
           <h1 class="h4 m-0 text-primary">Objeto de Aprendizaje Interactivo (OAI) α</h1>
-          <small class="text-muted">Proyecto Alpha - Facultad de Medicina, Universidad de Chile</small>
+          <small class="text-muted">Proyecto Alpha - Universidad</small>
         </div>
       </div>
       <div class="user-info">
