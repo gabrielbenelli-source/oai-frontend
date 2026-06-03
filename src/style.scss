@@ -1,0 +1,28 @@
+// src/style.scss
+// Importar Bootstrap completo (puedes personalizarlo luego para prolijidad)
+@import "bootstrap/scss/bootstrap";
+
+// Estilos globales personalizados para el Proyecto Alpha
+:root {
+  --alpha-blue: #004a99; // Azul institucional UChile
+  --alpha-light-blue: #e6f0ff;
+  --alpha-text: #333;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: var(--alpha-text);
+  overflow-x: hidden;
+}
+
+// Botones personalizados
+.btn-alpha {
+  background-color: var(--alpha-blue);
+  color: white;
+  border: none;
+  &:hover {
+    background-color: darken(#004a99, 10%);
+    color: white;
+  }
+}
